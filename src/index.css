@@ -48,56 +48,19 @@ table {
 }
 
 /************ Main CSS *********/
-#hero{
-    background-image: url('https://3.bp.blogspot.com/-FK3jTdSJEDo/WQCR9-mD9dI/AAAAAAAABaY/p41OFEvIT3gtmpt4JV45iHOUVmwhJkz6gCLcB/s1600/game-of-thrones.jpg');
-    background-size: cover;
-    position: relative;
-    height: 80vh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+.btn{
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 12px;
 }
 
-.header {
-    position: absolute;
-    top: 50%;
-    text-align: center;
-    width: 100%;
-    color: #fff;
-    -ms-transform: translate(0,-50%);
-    -webkit-transform: translate(0,-50%);
-    transform: translate(0,-50%);
-}
-
-.h1style {
-    display: inline-block;
-    background-color: rgba(255,0,0,0.7);
-    font-size: 300%;
-    font-weight: bold;
-    font-family: Lora, monospace, serif;
-    color: white;
-    padding: 1%;
-}
-
-.fa {
-    display: inline-block;
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: inherit;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
-.p1style {
-    display: inline-block;
-    background-color: rgba(255,0,0,0.7);
-    font-size: 150%;
-    font-weight: bold;
-    font-family: Lora, monospace, serif;
-    color: white;
-    padding: 1%;
-}
-
-p {
-    margin: 0 0 10px;
+.data-section{
+    display: grid;
+    padding: 2rem;
+   /* width:70%; */
+    /* place-items: center; */
+    gap: 10px 10px;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: 50px;
 }
