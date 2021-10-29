@@ -1,0 +1,5 @@
+export const apiEndPoints={
+    "books": "https://www.anapioficeandfire.com/api/books",
+    "characters": "https://www.anapioficeandfire.com/api/characters",
+    "houses": "https://www.anapioficeandfire.com/api/houses"
+}
