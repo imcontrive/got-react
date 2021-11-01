@@ -2,9 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import './book-card.css'
 
-export default function BookCard(props) {
-
-    const { data, index } = props || {};
+export default function BookCard({ data, index }) {
     const {
         name,
         isbn,
