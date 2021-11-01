@@ -1,0 +1,47 @@
+.book-card{
+    background: #FFFFFF;
+    border: 1px solid #F1F6FA;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 52px rgba(123, 139, 164, 0.1);
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+    margin: 20px 0;
+}
+.serial-no{
+    color: #001378;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.book-name{
+    color: #001378;
+    line-height: 1.5;
+    font-weight: 500;
+}
+.by{
+    line-height: 1.5;
+}
+
+.author-name{
+    color: #1D252D;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.book-card:hover{
+    cursor: pointer;
+    background-color: #F5F9FF;
+}
+.book_details_btn{
+    background-color: #ff2231;
+    color: #FFF;
+    border: none;
+    outline:none;
+    border-radius: 8px;
+    padding: 6px 16px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
