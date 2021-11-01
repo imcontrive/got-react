@@ -159,4 +159,6 @@ body {
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
+    padding: 2rem;
+
 }
