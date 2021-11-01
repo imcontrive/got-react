@@ -15,10 +15,6 @@ export default function BookCard({ data, index }) {
         url // used this for book details
     } = data || {};
 
-    const fetchBookDetails = () => {
-        props.history.push('/book-details')
-    }
-
 
     return (
         <div className="book-card">
