@@ -1,13 +1,20 @@
-import React, { Component } from 'react'; 
-import {connect} from 'react-redux';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import BookDetails from './components/pages/BookDetails';
 import Home from './components/pages/Home';
-import './index.css'
+import './styles/index.css'
 
 class App extends Component {
- 
+
   render() {
     return (
-      <Home/>
+      <Router>
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/book-details:id' component={BookDetails} />
+        </Switch>
+      </Router>
     )
   }
 }
